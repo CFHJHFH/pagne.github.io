@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz sur les Capitales</title>
+    <link rel="stylesheet" href="quiz.css">
+</head>
+
+<body>
+    <div class="quiz-container">
+        <h1 class="centre">Quiz sur les Capitales</h1>
+        <div class="question-container">
+            <p id="question"></p>
+        </div>
+        <div class="options-container">
+            <button class="option" onclick="checkAnswer(0)"><span id="option0"></span></button>
+            <button class="option" onclick="checkAnswer(1)"><span id="option1"></span></button>
+            <button class="option" onclick="checkAnswer(2)"><span id="option2"></span></button>
+            <button class="option" onclick="checkAnswer(3)"><span id="option3"></span></button>
+        </div>
+        <p id="score">Score: 0</p>
+    </div>
+    <script src="quiz.js"></script>
+</body>
+
+</html>
